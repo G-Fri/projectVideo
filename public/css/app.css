@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+#lessons.courseHeader {
+  background-color: #5C5858;
+  height: 310px;
+  padding: 45px 0; }
+  #lessons.courseHeader .mainPhoto {
+    margin-right: 65px; }
+    #lessons.courseHeader .mainPhoto img {
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      position: relative;
+      width: 300px;
+      hight: 220px;
+      margin-right: 65px; }
+  #lessons.courseHeader .courseSeason {
+    position: absolute;
+    top: -13px;
+    right: -35px;
+    color: #000;
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+    #lessons.courseHeader .courseSeason p {
+      margin: 0;
+      text-align: center;
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 8px;
+      text-transform: uppercase; }
+      #lessons.courseHeader .courseSeason p:first-child {
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 7px;
+        margin-bottom: -8px; }
+  #lessons.courseHeader .mainDescription {
+    color: #fff;
+    padding: 0; }
+    #lessons.courseHeader .mainDescription .socialBtn-group {
+      margin: 15px 0; }
+      #lessons.courseHeader .mainDescription .socialBtn-group div {
+        width: 200px;
+        height: 46px;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 12px;
+        margin-right: 20px;
+        -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5); }
+        #lessons.courseHeader .mainDescription .socialBtn-group div.fb-btn {
+          background-color: #4268B2; }
+        #lessons.courseHeader .mainDescription .socialBtn-group div.vk-btn {
+          background-color: #4976A8; }
+        #lessons.courseHeader .mainDescription .socialBtn-group div.telegram-btn {
+          background-color: #35ACE0; }
+    #lessons.courseHeader .mainDescription .rateCourse .rateStars {
+      display: inline;
+      margin-top: 5px; }
+      #lessons.courseHeader .mainDescription .rateCourse .rateStars svg {
+        width: 25px;
+        height: 25px;
+        margin-bottom: -5px;
+        fill: white; }
+
+.loginPlease {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  text-align: center; }
+
+.nav > li > a > img {
+  margin-left: 12px;
+  width: 30px;
+  height: 30px; }
+
+nav.navbar {
+  margin-bottom: 0;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
+
+.socialLinks {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  padding: 15px; }
+
+.icon-holder {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px; }
+
+#app .contactInfo {
+  height: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 15px; }
+  #app .contactInfo p {
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #7a7a7a; }
+  #app .contactInfo a {
+    margin: 0 5px;
+    color: #7a7a7a; }

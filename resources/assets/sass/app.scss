@@ -1,0 +1,148 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+#lessons {
+	&.courseHeader {
+	background-color: #5C5858;
+	height: 310px;
+	padding: 45px 0;
+	
+		.mainPhoto{
+			margin-right: 65px;
+			
+		 img{
+		border-radius: 5px;
+		position:relative;
+		width: 300px;
+		hight: 220px;
+		margin-right: 65px;
+	}
+		}
+	
+	.courseSeason {
+		position:absolute;
+		top:-13px;
+		right: -35px;
+		color: #000;
+		width: 55px;
+		height: 55px;
+		background-color: #fff;
+		border-radius: 50%;
+		
+		p {
+			margin:0;
+			text-align: center;
+			font-family: Roboto;
+			font-weight: 300;
+			font-size: 8px;
+			text-transform: uppercase;
+			
+			&:first-child {
+				font-size: 22px;
+				font-weight: 600;
+				margin-top: 7px;
+				margin-bottom: -8px;
+			}
+		}
+	}
+	
+	.mainDescription {
+		color: #fff;
+		padding: 0;
+		
+		.socialBtn-group {
+			margin: 15px 0;
+			div {
+				width: 200px;
+				height: 46px;
+				display:inline-block;
+				border-radius: 5px;
+				text-align:center;
+				padding-top:12px;
+				margin-right: 20px;
+				box-shadow: 0px 2px 7px rgba(0,0,0,0.5);
+				
+				&.fb-btn {
+					background-color: #4268B2;
+				}
+				&.vk-btn {
+					background-color: #4976A8;
+				}
+				&.telegram-btn {
+					background-color: #35ACE0;
+				}
+			}
+		}
+		
+		.rateCourse {
+			.rateStars {
+				display:inline;
+				margin-top:5px;
+				svg {
+					width: 25px;
+					height: 25px;
+					margin-bottom: -5px;
+					fill: white;
+				}
+			}
+		}
+	}
+}
+}
+
+.loginPlease {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90vh;
+	text-align:center;
+}
+
+.nav>li>a>img {
+	margin-left: 12px;
+	width: 30px;
+	height: 30px;
+}
+
+nav.navbar {
+	margin-bottom:0;
+	box-shadow: 0 2px 7px rgba(0,0,0,0.5);
+}
+
+.socialLinks {
+	display:flex;
+	align-items: center;
+	height: 60px;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	padding: 15px;
+}
+
+.icon-holder {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+#app .contactInfo {
+	height: 60px;
+	display:flex;
+	align-items: center;
+	padding: 0 15px;
+	
+	p {
+		font-size: 14px;
+		font-family: Helvetica;
+		color: #7a7a7a;
+	}
+	
+	a{
+		margin: 0 5px;
+		color: #7a7a7a;
+	}
+}
